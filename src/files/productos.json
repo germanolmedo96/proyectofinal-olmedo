@@ -1,0 +1,35 @@
+[
+	{
+		"title": "Mueble cocina alto",
+		"description": "Mueble de cocina alto color Sahara",
+		"code": "MC1",
+		"price": "500",
+		"status": true,
+		"stock": "4",
+		"category": "Cocina",
+		"thumbnails": [],
+		"id": 1
+	},
+	{
+		"title": "Comedor Cahoba",
+		"description": "Comedor 6 puestos color cahoba",
+		"code": "CP6",
+		"price": "840",
+		"status": true,
+		"stock": "14",
+		"category": "Comedor",
+		"thumbnails": [],
+		"id": 2
+	},
+	{
+		"title": "Closet doble ",
+		"description": "Closet doble puerta deslizable",
+		"code": "CD1",
+		"price": "690",
+		"status": true,
+		"stock": "3",
+		"category": "Room",
+		"thumbnails": [],
+		"id": 3
+	}
+]
