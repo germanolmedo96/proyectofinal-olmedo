@@ -36,7 +36,7 @@ const getProduct = async(req,res)=> {
         if(error instanceof ResultNotFound){
             res.sendClientError('Producto no encontrado')
         }
-        res.sendServerError(error);
+        res.status(500).send({error})
     }
     
 };
@@ -84,7 +84,6 @@ const saveProduct = async (req, res) => {
         res.status(500).send({error});
         req.logger.error(`${req.method} en ${req.url} - ${new Date().toISOString()} - ${error}`);
     }
-
 };
 
 const updateProduct = async (req,res)=> {
